@@ -1,0 +1,64 @@
+.welcome{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(241, 239, 237);
+}
+.welcomeh{
+font-size: 30px;
+text-align: center;
+padding: 30px;
+padding-top:60px;
+}
+.welcome .sline{
+   display: block;
+    height: 5px;
+    width: 70px;
+   background-color: blue;
+   margin: auto;
+}
+.d1{
+    height: 210px;
+    width: 25%;
+    border: 2px solid gray ;
+    text-align: center;
+     float: left;
+    margin-left: 5%;   
+    position: relative;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+i{
+    color :blue;
+    text-align: center;
+    font-size: 35px;
+}
+.title{
+color: rgb(22, 98, 98);
+font-size: 25px;
+}
+.detail{
+    color :gray;
+}
+.sec{
+    /* position: relative; */
+    padding-top: 25px;
+}
+.d1:after{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 0;
+    top:0;
+    left:0;
+    background-color: gray;
+    opacity: 0;
+     }
+     .d1:hover:after{
+        width: 100%;
+        height: 100%;
+        opacity: 0.5;
+        transition: 1s;
+     }
+    

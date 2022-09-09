@@ -1,0 +1,154 @@
+.price{
+width: 100%;
+height: 100vh;
+}
+/* ----------------------Div 1 ------------------ */
+.d1{
+    height: 300px;
+    width: 25%;
+     border: 1px solid gray;
+    margin-top: 50px;
+    float :left;
+    transition:1.5s;
+    }
+    .d1:hover 
+    {
+        background-color: rgb(209, 199, 199);
+    }
+    .d1:hover .s9
+    {
+       color: red;
+    }
+    .d1:hover .month
+    {
+        color: red;
+    }
+    .d:hover .dd1
+    {
+        border: red;
+    }
+    
+    /* -------------------- paragraph 1 -------------- */
+    .p1
+    {
+        color: gray;
+    letter-spacing: 2px;
+        text-align: center;
+    }
+    
+    /* ----------------------Div 2 ------------------ */
+    .d2{
+        height: 300px;
+        width:25%;
+         border: 1px solid gray;
+        margin-top: 50px;
+        float :left;
+        margin-left: 100px;
+    margin-right: 100px;
+    transition:1.5s;
+    
+        }
+        .d2:hover 
+    {
+        background-color: rgb(209, 199, 199);
+    }
+    .d2:hover .s9
+    {
+       color: red;
+    }
+    .d2:hover .month
+    {
+        color: red;
+    }
+    .d:hover .dd1
+    {
+        border: red;
+    }
+      
+       
+      
+    
+        /* ----------------------Div 3 ------------------ */
+    .d3{
+        height: 300px;
+        width: 25%;
+         border: 1px solid gray;
+        margin-top: 50px;
+        float :left;
+        transition:1.5s;
+        }
+        .d3:hover 
+    {
+        background-color: rgb(209, 199, 199);
+    }
+    .d3:hover .s9
+    {
+       color: red;
+    }
+    .d3:hover .month
+    {
+        color: red;
+    }
+    .d:hover .dd1
+    {
+        border: red;
+    }
+    
+    
+    /* -------------------Div parent------------ */
+    .parent
+    {
+    margin-top: 150px;
+    margin-left: 150px;
+    overflow: auto;
+    
+    
+    }
+    /* -------------------span------------- */
+    .sp1
+    {
+    height: 3px;
+    width: 50px;
+    background-color: rgb(74, 74, 243);
+    display: block;
+    margin: auto;
+    }
+    .hh
+    {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    }
+    .pp1{
+        font-size: 15px;
+        text-align: center;
+        color: gray;
+    }
+    .dd1{
+        height: 75px;
+        width: 75px;
+        border: 1px solid gray;
+        border-radius: 50%;
+        margin: auto;
+    }
+    .s9{
+        text-align: center;
+        font-size: 30px;
+        font-weight: bolder;
+margin: -2px;
+        
+    }
+    .month {
+        text-align: center;
+        font-size: 10px;
+    }
+    .btn2{
+        width: 120px;
+        height: 30px;
+        border: 1px solid blue;
+        border-radius: 10px;
+        background: white;
+        color: black;
+        margin: auto;
+    display: block;
+    }

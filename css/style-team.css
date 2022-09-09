@@ -1,0 +1,58 @@
+
+ .team_details1{
+    display: block;
+    float: left;
+    width: 30%;
+    padding: 15px 10px;
+    text-align: center;
+    position: relative;
+ }
+ .team-img{
+width: 90%;
+margin: auto;
+position: relative;
+ }
+ .team-overlay{
+background-color: green;
+position: absolute;
+top:0;
+right:0;
+left: 0;
+bottom: 0;
+background-color: rgba(0, 0,0, 0.6);
+visibility: hidden;
+opacity: 0;
+ }
+ .team_details1:hover .team-overlay{
+    visibility: visible;
+    opacity: 1;
+ }
+ .team-overlay a {
+    display: block;
+    width: 45px;
+    height: 45px;
+    background-color: rgb(249, 249, 253);
+    margin-left: auto;
+ }
+ .team-overlay a i {
+    line-height: 45px ;
+ }
+ .team-img img{
+    width: 100%;
+ }
+ .team_details1::after{
+content: "";
+position: absolute;
+width: 100%;
+height: 0;
+top:0;
+left:0;
+background-color: gray;
+opacity: 0;
+ }
+ .team_details1:hover:after {
+width: 100%;
+height: 100%;
+opacity: 0.5;
+transition: 1s;
+ }
